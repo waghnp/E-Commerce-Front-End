@@ -16,7 +16,7 @@ const dispatch = useDispatch();
       return () => {
         
       }
-  }, [])
+  }, [dispatch])
     return(
         loading? <div>Loading...</div> :
         error? <div>{error}</div> :

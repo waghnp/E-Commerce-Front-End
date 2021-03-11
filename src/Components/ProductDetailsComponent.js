@@ -18,7 +18,7 @@ const ProductDetails=(props)=>{
         return () => {
             //cleanup
         }
-    }, [])
+    }, [dispatch])
     const handleAddToCart=()=>{
         props.history.push('/cart/'+props.match.params.id+'?qty='+qty)
     }

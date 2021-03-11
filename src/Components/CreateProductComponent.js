@@ -27,7 +27,7 @@ const CreateProduct=()=>{
         return () => {
             //cleanup
         }
-    }, [successSave,successDelete]);
+    }, [successSave,successDelete,dispatch]);
 
     const openModal=(product)=>{
         setModalVisible(true);

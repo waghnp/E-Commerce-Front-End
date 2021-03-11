@@ -21,7 +21,7 @@ const Cart=(props)=>{
         return () => {
             //cleanup
         }
-    }, []);
+    }, [dispatch]);
     const cheackoutHandler=()=>{
         props.history.push("/signin?redirect=shipping");
     }

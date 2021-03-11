@@ -7,6 +7,7 @@ import SignIn from './Components/SignInComponent';
 import {useSelector} from 'react-redux';
 import Register from './Components/RegisterComponent';
 import CreateProduct from './Components/CreateProductComponent'
+import Shipping from './Components/ShippingComponent';
 
 function App() {
     const userSignIn = useSelector(state => state.userSignIn)
@@ -52,6 +53,7 @@ const closeMenu=()=>{
                     <Route path="/cart/:id?" component={Cart} />
                     <Route path="/signin" component={SignIn} />
                     <Route path="/register"  component={Register}/>
+                    <Route path="/shipping" component={Shipping} />
                     <Route path="/createproduct" component={CreateProduct}  />
                 </div>
              
