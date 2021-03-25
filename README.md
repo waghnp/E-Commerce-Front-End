@@ -1,4 +1,4 @@
-#Back-End Link for E-coomerce website
+#E-commerce website Back-End Link
 https://github.com/waghnp/E-Commerce-BackEnd
 
 # Getting Started with Create React App
